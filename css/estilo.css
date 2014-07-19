@@ -1,0 +1,92 @@
+a
+{
+	color: #FFF;
+}
+body
+{
+	background: #f2f2f2;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+header
+{
+	background: green;
+	position:relative;
+	overflow: hidden;
+	
+
+}
+
+header figure
+{
+	float: left;
+}
+
+header figure h1
+{
+	font-size: 1.2em;
+	font-weight:bold;
+	margin: 1em 10px 0em 1.5em;
+
+}
+header .usuario
+{
+	position: absolute;
+	
+	right: 0px;
+	top: 5px;
+	padding-right: 1.5em;
+	width: 130px;
+
+}
+
+header .usuario p
+{
+	float: left;
+
+}
+
+header .usuario .avatar
+{
+	float: right;
+
+}
+
+header .usuario .avatar img
+{
+	border-radius: 50%;
+	width: 50px;
+
+}
+
+nav{
+	float: left;
+	padding: 0 0.5em;
+	position: relative;
+	margin-left: 10%;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1em 0 0;
+	
+
+}
+
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 1.3em 0;
+	text-decoration: none;
+
+}
